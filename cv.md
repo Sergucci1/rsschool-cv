@@ -6,7 +6,7 @@
 * ***Location:*** Minsk, Belarus
 
 # About me
-Начинающий front-end разработчик. Изучаю HTML, CSS и JavaScript, стремлюсь создавать качественные и удобные веб-интерфейсы. Быстро обучаюсь, легко усваиваю новую информацию и умею находить оптимальные решения задач.
+Aspiring front-end developer. I'm learning HTML, CSS, and JavaScript, aiming to build clean and user-friendly web interfaces. I learn fast, absorb new information easily, and enjoy finding optimal solutions to problems.
 # Skills
 * ***Languages:*** HTML, CSS, JS, Python
 * ***Tools:*** Git, GitHub, VS Code, ChromeDevTools
