@@ -1,5 +1,90 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+main {
+  display: flex;
+}
+.cv-left-side {
+  background-color: rgba(255, 241, 202, 1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cv-right-side {
+  background-color: rgba(255, 255, 226, 1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu {
+  background-color: rgba(250, 220, 180, 0.77);
+}
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(254, 152, 152, 0.952);
+  padding: 15px;
+  margin: 0;
+}
+.navigation-links a {
+  text-decoration: none;
+  color: rgba(134, 59, 59, 0.982);
+}
+.cv-image {
+  width: 60%;
+  border-radius: 60%;
+  margin: auto;
+}
+.skills img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.skills-icons{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(254, 152, 152, 0.952);
+  background-color: rgba(250, 220, 180, 0.77);
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 5px;
+  padding-top: 0;
+  margin: 0;
+}
+.rs-logo{
+  width: 100px;
+  height: auto;
+  display: block;
+}
+.github-link {
+  color: rgba(8, 92, 88, 0.995);
+  text-decoration: none;
+}
+.github-link:hover {
+  text-decoration: underline;
+}
+.author-footer {
+  font-size: 18px;
 }
