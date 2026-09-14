@@ -3,7 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Sergey Smal</title>
 </head>
-<body></body>
+<body>
+  <header>
+    <nav class="navigation-menu">
+      <ul class="navigation-links">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-examples">Code examples</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cv-left-side">
+      <img  class="cv-image" src="cv-photo.jpg" alt="Sergey Smal photo">
+      <section class="contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>E-mail: <a href="serguccib@gmail.com">serguccib@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/Sergucci1">Sergucci1</a></li>
+          <li>CodeWars: <a href="https://www.codewars.com/users/Sergucci1">Sergucci1</a></li>
+          <li>Discord: sergofun_96</li>
+          <li>Location: Minsk, Belarus</li>
+        </ul>        
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            Programming languages:
+            <ul class="skills-icons">
+              <li><img src="html-logo.png" alt="HTML"></li>
+              <li><img src="css-logo.png" alt="CSS"></li>
+              <li><img src="javascript-logo.png" alt="JS"></li>
+              <li><img src="python_logo.png" alt="Python"></li>
+            </ul>
+          </li>
+          <li>
+            Tools:
+              <ul class="skills-icons">
+                <li><img src="git-logo.png" alt="Git"></li>
+                <li><img src="github-logo.png" alt="GitHub"></li>
+                <li><img src="vscode-logo.png" alt="VS Code"></li>
+                <li><img src="chromedevtools-logo.png" alt="ChromeDevTools"></li>
+              </ul>
+            
+          </li>
+        </ul> 
+      </section>
+      <section class="languages" id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English - B1</li>
+          <li>Russian - native</li>
+          <li>Belarusian - native</li>
+        </ul>
+      </section>
+    </div>
+    <div class="cv-right-side">
+      <section class="about-me" id="about-me">
+        <h1>Sergey Smal</h1>
+        <p>Aspiring front-end developer.</p>
+        <p>I'm learning HTML, CSS, and JavaScript, aiming to build clean and user-friendly web interfaces.</p> 
+        <p>I learn fast, absorb new information easily, and enjoy finding optimal solutions to problems.</p>
+      </section>
+      <section class="education-info" id="education-info">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor's Degree, Belarusian State University - Chemistry of medicinal compounds, 2019-2024</li>
+          <li>"Python Generation": course for advanced - <a href="https://stepik.org/cert/1988947">Certificate</a></li>
+          <li>RS School - <a href="https://rs.school/courses/javascript">Full-Stack JavaScript 2026 Q3 (in progress)</a></li>
+        </ul>
+      </section>
+      <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <a href="https://github.com/Sergucci1/rsschool-cv">CV project</a>
+      </section>
+      <section class="code-examples" id="code-examples">
+        <h2>JavaScript</h2>
+        <pre><code>
+          function multiply(a, b){
+          return a * b
+          }
+        </code></pre>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <span class="author-footer">2026, Sergey Smal</span>
+    <a class="github-link" href="https://github.com/Sergucci1">GitHub - Sergucci1</a>
+    <a href="https://rs.school/courses/javascript">
+      <img class="rs-logo" src="rs-school-logo.png" alt="RS School logo">
+    </a>
+  </footer>
+</body>
 </html>
