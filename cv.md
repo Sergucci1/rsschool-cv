@@ -1,8 +1,11 @@
 # Sergey Smal
+<img width="100" height="100" alt="photo" src="https://github.com/user-attachments/assets/9ec45cde-2c69-43f9-8096-de3e792060db">
+
 # Contacts
 * ***E-mail:*** [serguccib@gmail.com](serguccib@gmail.com)
 * ***GitHub:*** [Sergucci1](https://github.com/Sergucci1)
 * ***CodeWars:*** [Sergucci1](https://www.codewars.com/users/Sergucci1)
+* ***Discord:*** sergofun_96
 * ***Location:*** Minsk, Belarus
 
 # About me
@@ -16,11 +19,13 @@ function multiply(a, b){
   return a * b
 }
 ```
+# Experience
+* [CV project](https://github.com/Sergucci1/rsschool-cv)
 # Education
 * **Bachelor's Degree, Belarusian State University**
     -Chemistry of medicinal compounds, 2019-2024
 * **"Python Generation": course for advanced**
-    -[Course](https://stepik.org/cert/1988947)) 
+    -[Certificate](https://stepik.org/cert/1988947)
 * **RS School**
     -Full-Stack JavaScript 2026 Q3 (in progress)
 # Languages
